@@ -18,5 +18,7 @@ SOURCES += \
 RESOURCES +=
 
 INCLUDEPATH += /home/peter/Downloads/glew-2.1.0/include
+INCLUDEPATH += glm
+
 #LIBS += -lGLEW -lglfw
 LIBS += -L/home/peter/Downloads/glew-2.1.0/lib -lGLEW -lglfw
