@@ -13,7 +13,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+        mesh.cpp \
+        shader.cpp \
+        window.cpp
 
 RESOURCES +=
 
@@ -22,3 +25,8 @@ INCLUDEPATH += glm
 
 #LIBS += -lGLEW -lglfw
 LIBS += -L/home/peter/Downloads/glew-2.1.0/lib -lGLEW -lglfw
+
+HEADERS += \
+    mesh.h \
+    shader.h \
+    window.h
